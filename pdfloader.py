@@ -6,7 +6,7 @@ from langchain_core.prompts import ChatPromptTemplate
 load_dotenv()
 
 
-data = TextLoader("document_loaders/notes.txt").load()
+data = PyPDFLoader("document_loaders/ml.pdf").load()
 template = ChatPromptTemplate.from_messages([
     ("system", "You are a AI that summarize the text."),
     ("human", "{data}"),

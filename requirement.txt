@@ -1,0 +1,8 @@
+langchain
+langchain-core
+langchain-community
+langchain-mistralai
+python-dotenv
+chromadb
+pypdf
+beautifulsoup4

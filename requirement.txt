@@ -6,3 +6,5 @@ python-dotenv
 chromadb
 pypdf
 beautifulsoup4
+langchain-huggingface
+sentence-transformers

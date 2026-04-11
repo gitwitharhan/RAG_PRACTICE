@@ -8,3 +8,5 @@ pypdf
 beautifulsoup4
 langchain-huggingface
 sentence-transformers
+streamlit
+torchvision
